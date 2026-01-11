@@ -580,7 +580,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ isVideoWarm = false, s
 
         {/* Device Showcase - ON TOP */}
         <div className="w-full flex flex-col items-center mb-12 px-4">
-            <div className="relative w-full max-w-7xl flex flex-col md:flex-row items-center md:items-end justify-center gap-8 md:gap-12 group perspective-1000">
+            <div className="relative w-full max-w-7xl flex flex-col md:flex-row items-center md:items-end justify-center gap-8 md:gap-4 group perspective-1000">
                 
                 {/* Ambient Glow */}
                 <div className={`absolute -inset-4 bg-gradient-to-t from-blue-500/20 to-purple-500/10 blur-3xl rounded-[50%] opacity-40 transition-opacity group-hover:opacity-70 ${isDarkMode ? 'block' : 'hidden'}`}></div>
@@ -594,12 +594,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({ isVideoWarm = false, s
                     />
                 </div>
 
-                {/* Mobile/iPad Image - Added spacing */}
-                <div className="relative transform transition-transform duration-700 hover:scale-[1.02] z-20 w-3/4 md:w-1/4 -mt-10 md:mt-0 md:mb-1">
+                {/* Mobile/iPad Image */}
+                {/* Removed negative margin on mobile to prevent collision/overlap, rely on gap and padding */}
+                <div className="relative transform transition-transform duration-700 hover:scale-[1.02] z-20 w-3/4 md:w-1/4 mt-4 md:mt-0 md:-ml-8 md:mb-2">
                      <img 
                         src={images.IPAD_APPS_IMG} // Updated to use constant
                         alt="WingMentor Mobile Interface" 
-                        className="w-full h-auto object-contain drop-shadow-2xl rounded-lg"
+                        className="w-full h-auto object-contain drop-shadow-2xl rounded-lg border border-zinc-700/50"
                     />
                 </div>
             </div>
