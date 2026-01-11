@@ -597,7 +597,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ isVideoWarm = false, s
                 {/* Mobile/iPad Image - Added spacing */}
                 <div className="relative transform transition-transform duration-700 hover:scale-[1.02] z-20 w-3/4 md:w-1/4 -mt-10 md:mt-0 md:mb-1">
                      <img 
-                        src="https://lh3.googleusercontent.com/d/16EwF2Im4YXP-w5c8roG01kbWC9l9wjEO" 
+                        src={images.IPAD_APPS_IMG} // Updated to use constant
                         alt="WingMentor Mobile Interface" 
                         className="w-full h-auto object-contain drop-shadow-2xl rounded-lg"
                     />

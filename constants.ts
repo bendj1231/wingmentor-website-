@@ -1,3 +1,4 @@
+
 export const IMAGES = {
     LOGO: "https://lh3.googleusercontent.com/d/1U7pwMY1-ZsvNYC0Np3fVw5OhW3rTD5DR", 
     PILOT_GAP_LOGO: "https://lh3.googleusercontent.com/d/1BKT1CFVS2HwUnX2528UchLjnFN8TeCkf", 
@@ -19,7 +20,7 @@ export const IMAGES = {
     BLACK_BOX_BG: "https://lh3.googleusercontent.com/d/1-QnGd5r6Qe9x9KBKMIOYxWsVX9Idu0e9", 
     MINDMAP_SECTION_BG: "https://lh3.googleusercontent.com/d/1y-ZMwtx856ksi70mOvhyTIpmSC0WEShQ", 
     FORUM_BG: "https://lh3.googleusercontent.com/d/1xZ5rv7k6fhS5Mhx_Db1TlDUkWyZDjMVb", 
-    IPAD_APPS_IMG: "https://lh3.googleusercontent.com/d/1g2fsJA4Kg8MhFqwcs_ALrVulKMigZ_6_", 
+    IPAD_APPS_IMG: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto-format&fit=crop", 
     INSTRUCTION_VS_CONSULTANCY_IMG: "https://lh3.googleusercontent.com/d/1GyMG1004Ny93i4_ktGikIXgzy-FHiPBI", 
     WINGMENTOR_PASSPORT_APP_IMG: "https://lh3.googleusercontent.com/d/12yV8_AmHGkJedZ7c86VZoUwzcSbZt3fV",
     PILOT_GAP_FORUM_APP_IMG: "https://lh3.googleusercontent.com/d/1InHXB-jhAZ3UNDXcvHbENwbB5ApY8eOp",
